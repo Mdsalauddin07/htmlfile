@@ -1,0 +1,85 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ccc;
+        }
+
+        h1{
+            width: 90%;
+            height: 30px;
+            text-align: center;
+            font-size: medium;
+            font-weight: 800;
+            color: #faf9f9;
+            background-color: #000;
+            margin-top: 10%;
+            text-transform: uppercase;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+        }
+
+        .container{
+            width: 300px;
+            height: 368px;
+            background-color: #000;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+
+        input{
+            width: 90%;
+            height: 30px;
+            margin-top: 5%;
+            font-weight: 700;
+            border-radius: 8px;
+            text-align: start;
+            color: #000;
+            padding-left: 5px;
+            margin-left: 15px;
+        }
+
+        textarea{
+            margin-top: 5%;
+            width: 90%;
+            height: 90px;
+            border-radius: 8px;
+            font-weight: 600;
+            padding-left: 10px;
+            margin-left: 15px;
+        }
+
+        .btn{
+            width: 90%;
+            height: 30px;
+            margin-top: 4%;
+            border-radius: 20px;
+            background-color: green;
+            color: #fff;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 15px;
+            
+        }
+
+        .btn:hover{
+            background-color: #0aa0e6;
+            color: #000;
+        }
+
+
+
